@@ -17,11 +17,12 @@ void quick_sort(int A[], int n)  // quick sort 구현
 		{
 			while(A[++left] < pivot); 
 				while(A[--right] > pivot); 
-					if(left >= right) // left가 right보다 같거나 클 경우 분할 중단
+					if(left >= right)
+					// left가 right보다 같거나 클 경우 분할 중단
 						break; 
 
 					else
-					{
+					{	
 						// right가 left보다 클 경우 left값과 right값을 변경
 						temp = A[left];
 						A[left] = A[right];
