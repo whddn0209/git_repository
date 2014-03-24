@@ -1,4 +1,4 @@
-// quick_sort.c		   //
+// quick_sort.c	       //
 // quick sort function //
 
 void quick_sort(int A[], int n)  // quick sort ±¸Çö
