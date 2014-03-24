@@ -7,7 +7,8 @@ int main()
 	int A[10];
 	int n=10;
 	int i;
-
+	
+	printf("Quick_sort를 사용한 정렬\n"); // branch 확인을 위해 추가
 	printf("정렬하고 싶은 숫자 10개를 입력\n");
 	
 	for (i=0; i<n; i++) // 10개의 숫자 입력받기
