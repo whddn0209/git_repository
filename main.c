@@ -1,4 +1,5 @@
-// main.c //
+// main.c		 //
+// main function //
 
 #include <stdio.h>
 int main()
