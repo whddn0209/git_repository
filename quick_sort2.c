@@ -1,6 +1,7 @@
 // quick_sort.c	       //
 // quick sort modified function //
 
+
 void quick_sort(int A[], int n)  // quick sort 구현
 {
 	int pivot_changed, temp_changed;// change element
@@ -31,7 +32,7 @@ void quick_sort(int A[], int n)  // quick sort 구현
 
 		}
 		
-		// pivot_changed값과 pivot_changed값의 위치에 있는 값을 바꿈
+		// void swap
 		temp_changed = A[left_changed];
 		A[left_changed] = A[n-1];
 		A[n-1] = temp_changed;
